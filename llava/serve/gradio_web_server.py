@@ -280,10 +280,17 @@ def http_bot(state, model_selector, temperature, top_p, max_new_tokens, request:
 
 title_markdown = ("""
 # Intel-GPT: Your Vision Assistant
-[[Project Page](https://llava-vl.github.io)] [[Github](https://github.com/AmosMaru/Intel-GPT.git)] [[Model](https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md)] 
+[[Project Page](https://llava-vl.github.io)] [[Github](https://github.com/AmosMaru/Intel-GPT.git)] 
+""")
+
+tos_markdown = ("""
+### INTEL-GPT
 """)
 
 
+learn_more_markdown = ("""
+### @copy-rights 2023
+""")
 block_css = """
 
 #buttons button {
